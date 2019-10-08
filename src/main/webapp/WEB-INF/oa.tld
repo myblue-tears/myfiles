@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<display-name>"xunpoit Tags"</display-name>
+	<tlib-version>1.1</tlib-version>
+	<short-name>xunpoit</short-name>
+	<uri>http://www.xunpoit.myTaglib/tags</uri>
+	<function>
+		<name>getPermission</name>
+		<function-class>com.xunpoit.oa.manager.impl.SecurityFunction</function-class>
+		<function-signature>boolean getPermission(int,java.lang.String,int)</function-signature>
+	</function>
+
+</taglib>
